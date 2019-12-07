@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<HBox fx:id="menuJouer" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      prefHeight="400.0" prefWidth="600.0">
+
+    <AnchorPane prefWidth="${menuJouer.width}">
+        <Button id="solo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0" onAction="#ouvrirSolo">
+            <font>
+                <Font name="Verdana Bold" size="24.0"/>
+            </font>
+        </Button>
+    </AnchorPane>
+    <AnchorPane prefWidth="${menuJouer.width}">
+        <Button text="Duo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0" onAction="#ouvrirDuo">
+            <font>
+                <Font name="Verdana Bold" size="24.0"/>
+            </font>
+        </Button>
+    </AnchorPane>
+    <AnchorPane prefWidth="${menuJouer.width}">
+        <Button fx:id="vs1" text="1v1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0" onAction="#ouvrir1v1">
+            <font>
+                <Font name="Verdana Bold" size="24.0"/>
+            </font>
+        </Button>
+    </AnchorPane>
+</HBox>

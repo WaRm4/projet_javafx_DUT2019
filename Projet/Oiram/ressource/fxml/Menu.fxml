@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<BorderPane fx:id="menuOptions" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Label text="Thème : ">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets top="27.0"/>
+                            </HBox.margin>
+                        </Label>
+                        <Button text="Thème Sombre" onAction="#ThemeSombre">
+                            <HBox.margin>
+                                <Insets right="20.0" top="25.0"/>
+                            </HBox.margin>
+                        </Button>
+                        <Button text="Thème Blanc" onAction="#ThemeBlanc">
+                            <HBox.margin>
+                                <Insets right="20.0" top="25.0"/>
+                            </HBox.margin>
+                        </Button>
+                        <CheckBox fx:id="checkDefaut" text="Defaut" onAction="#checkDefault" selected="false">
+                            <HBox.margin>
+                                <Insets top="27.0"/>
+                            </HBox.margin>
+                        </CheckBox>
+                    </children>
+                    <padding>
+                        <Insets top="20.0"/>
+                    </padding>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Label text="Volume : ">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets right="20.0" top="25.0"/>
+                            </HBox.margin>
+                        </Label>
+                        <Slider>
+                            <HBox.margin>
+                                <Insets top="30.0"/>
+                            </HBox.margin>
+                        </Slider>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Label text="Difficulté : ">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <padding>
+                                <Insets right="10.0"/>
+                            </padding>
+                            <HBox.margin>
+                                <Insets top="25.0"/>
+                            </HBox.margin>
+                        </Label>
+                        <CheckBox fx:id="facile" mnemonicParsing="false" text="Facile" onAction="#facileSelected">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <padding>
+                                <Insets right="10.0"/>
+                            </padding>
+                            <HBox.margin>
+                                <Insets top="25.0"/>
+                            </HBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="moyen" mnemonicParsing="false" text="Moyen" onAction="#moyenSelected">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <padding>
+                                <Insets right="10.0"/>
+                            </padding>
+                            <HBox.margin>
+                                <Insets top="25.0"/>
+                            </HBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="difficile" mnemonicParsing="false" text="Difficile"
+                                  onAction="#difficileSelected">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets top="25.0"/>
+                            </HBox.margin>
+                        </CheckBox>
+                    </children>
+                </HBox>
+                <HBox prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Label text="Langue : ">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets right="10.0" top="25.0"/>
+                            </HBox.margin>
+                        </Label>
+                        <ToggleButton fx:id="choisirLangue" onAction="#toggleOptions" text="Français">
+                            <font>
+                                <Font name="Verdana Bold" size="14.0"/>
+                            </font>
+                            <HBox.margin>
+                                <Insets top="22.0"/>
+                            </HBox.margin>
+                        </ToggleButton>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <Button mnemonicParsing="false" text="Valider" fx:id="validerOptions" onAction="#validerClique"
+                BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Verdana Bold" size="14.0"/>
+            </font>
+            <BorderPane.margin>
+                <Insets bottom="20.0"/>
+            </BorderPane.margin>
+        </Button>
+    </bottom>
+    <top>
+        <Label text="Options" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Verdana Bold" size="32.0"/>
+            </font>
+        </Label>
+    </top>
+    <left>
+        <Pane prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER"/>
+    </left>
+    <right>
+        <Pane prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER"/>
+    </right>
+</BorderPane>
+
+
+
