@@ -1,5 +1,6 @@
 package view;
 
+import custom.AlertCustom;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -44,8 +45,8 @@ public class Menu {
             Stage st = (Stage) menuOptions.getScene().getWindow();
             st.setScene(scene);
         } catch (IOException ioe) {
-            Alert a = new Alert(Alert.AlertType.INFORMATION, "Probleme lors du chargement de la fenetre");
-            a.show();
+            AlertCustom a = new AlertCustom(Alert.AlertType.INFORMATION);
+            a.showAndWait();
             ((Stage) menuOptions.getScene().getWindow()).close();
         }
     }

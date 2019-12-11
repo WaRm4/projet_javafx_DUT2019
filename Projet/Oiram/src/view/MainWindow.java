@@ -1,5 +1,6 @@
 package view;
 
+import custom.AlertCustom;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
@@ -24,8 +26,8 @@ public class MainWindow {
             Stage st = (Stage) menuDebut.getScene().getWindow();
             st.setScene(sc);
         } catch (IOException ioe) {
-            Alert a = new Alert(Alert.AlertType.INFORMATION, "Probleme lors du chargement de la fenetre");
-            a.show();
+            AlertCustom a = new AlertCustom(Alert.AlertType.INFORMATION);
+            a.showAndWait();
             ((Stage) menuDebut.getScene().getWindow()).close();
         }
     }
@@ -40,8 +42,8 @@ public class MainWindow {
             Stage st = (Stage) menuDebut.getScene().getWindow();
             st.setScene(sc);
         } catch (IOException ioe) {
-            Alert a = new Alert(Alert.AlertType.INFORMATION, "Probleme lors du chargement de la fenetre");
-            a.show();
+            AlertCustom a = new AlertCustom(Alert.AlertType.INFORMATION);
+            a.showAndWait();
             ((Stage) menuDebut.getScene().getWindow()).close();
         }
     }

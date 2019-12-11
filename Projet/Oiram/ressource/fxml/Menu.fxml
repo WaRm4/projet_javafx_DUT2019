@@ -13,7 +13,7 @@
             <children>
                 <HBox prefHeight="100.0" prefWidth="200.0">
                     <children>
-                        <Label text="Thème : ">
+                        <Label fx:id="lab" text="Thème : ">
                             <font>
                                 <Font name="Verdana Bold" size="14.0"/>
                             </font>
@@ -31,7 +31,7 @@
                                 <Insets right="20.0" top="25.0"/>
                             </HBox.margin>
                         </Button>
-                        <CheckBox fx:id="checkDefaut" text="Defaut" onAction="#checkDefault" selected="false">
+                        <CheckBox fx:id="checkDefaut" text="Defaut" onAction="#checkDefault">
                             <HBox.margin>
                                 <Insets top="27.0"/>
                             </HBox.margin>

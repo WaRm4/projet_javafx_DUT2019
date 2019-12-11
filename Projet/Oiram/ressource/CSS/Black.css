@@ -11,7 +11,7 @@
 }
 
 .lab{
-    content : "ghdfgh";
+    text = "bonjour";
 }
 
 Pane, AnchorPane, BorderPane, DialogPane, FlowPane, GridPane, HBox, StackPane, TextFlow, TilePane, VBox {

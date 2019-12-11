@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4774f111-41eb-4409-8a0f-f2ad9581fecb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ressource/Sons/Enregistrement.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressource/images/oiram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressource/images/ouverture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ressource/images/screen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Oiram/fxml/TEstJeuAnchor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Oiram/fxml/TEstJeuAnchor.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressource/CSS/darkTheme" beforeDir="false" afterPath="$PROJECT_DIR$/ressource/CSS/darkTheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressource/fxml/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ressource/fxml/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/launch/Oiram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/launch/Oiram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MenuJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuJeu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,18 +36,23 @@
   <component name="ProjectId" id="1TyJcHwczoM0MpknAwCbWujLHKj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ressource/Sons" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ressource" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\killi\Desktop\javafx\projet_javafx_DUT2019\Projet\Oiram\ressource\Sons" />
+      <recent name="C:\Users\killi\Desktop\javafx\projet_javafx_DUT2019\Projet\Oiram\ressource\images" />
+      <recent name="C:\Users\killi\Desktop\javafx\projet_javafx_DUT2019\Projet\Oiram\src\view" />
+      <recent name="$PROJECT_DIR$/src/view" />
       <recent name="$PROJECT_DIR$/ressource/CSS" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/view" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\killi\Desktop\javafx\projet_javafx_DUT2019\Projet\Oiram\ressource\Sons" />
+      <recent name="C:\Users\killi\Desktop\javafx\projet_javafx_DUT2019\Projet\Oiram\ressource\CSS" />
+      <recent name="$PROJECT_DIR$/ressource" />
       <recent name="$PROJECT_DIR$/ressource/CSS" />
     </key>
   </component>
@@ -81,6 +95,9 @@
       <updated>1574426479892</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
