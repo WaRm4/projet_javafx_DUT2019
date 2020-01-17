@@ -4,22 +4,18 @@ Ce projet consiste à créer un **jeu** de plateforme utilisant le __javafx__.
 
 Ce projet n'est pas ~~NUL~~.
 
-*Modele
+La **Qualite** doit devancer la ~~MERDE~~.
 
-*Vue
-
-####Une façade avec des attributs n'est pas une FACADE
+#####Une façade avec des attributs n'est pas une FACADE
 
 |       |       |        |        |
 |-------|-------|--------|--------|
 |       |       |        |        |
 |       |       |        |        |
 |       |       |        |        |
-|       |       |        |        |
-|       |       |        |        |
 
 #SUPER TABLEAU =)
 
-## IMPORTANT Ce fichier Read me est un test pour s'entrainer au markdown.
+## Ce fichier Readme est un test pour s'entrainer au markdown.
 -----------------------------------------------------
 Voici mon github https://github.com/WaRm4

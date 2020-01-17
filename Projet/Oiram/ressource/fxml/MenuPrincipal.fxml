@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="menuDebut" xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          prefHeight="400.0" prefWidth="600.0" styleClass="fondimg">
+    <columnConstraints>
+        <ColumnConstraints percentWidth="120"/>
+        <ColumnConstraints percentWidth="100"/>
+        <ColumnConstraints percentWidth="120"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="120"/>
+        <RowConstraints percentHeight="100"/>
+        <RowConstraints percentHeight="100"/>
+        <RowConstraints percentHeight="100"/>
+        <RowConstraints percentHeight="120"/>
+    </rowConstraints>
+    <children>
+        <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="AnchorMenu">
+            <Button onAction="#menuStart" text="Start" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0"
+                    AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                <font>
+                    <Font name="Verdana Bold" size="18.0"/>
+                </font>
+            </Button>
+            <padding>
+                <Insets bottom="20.0" left="40.0" right="40.0" top="20.0"/>
+            </padding>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="AnchorMenu">
+            <Button onAction="#menuOptions" text="Options" textAlignment="CENTER" AnchorPane.bottomAnchor="0"
+                    AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                <font>
+                    <Font name="Verdana Bold" size="18.0"/>
+                </font>
+            </Button>
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+            </padding>
+        </AnchorPane>
+        <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="3" styleClass="AnchorMenu">
+            <Button onAction="#MenuQuit" text="Quit" AnchorPane.bottomAnchor="0"
+                    AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                <font>
+                    <Font name="Verdana Bold" size="18.0"/>
+                </font>
+            </Button>
+            <padding>
+                <Insets bottom="20.0" left="40.0" right="40.0" top="20.0"/>
+            </padding>
+        </AnchorPane>
+    </children>
+</GridPane>

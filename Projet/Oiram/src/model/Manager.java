@@ -3,41 +3,78 @@ package model;
 import model.Persistance.IPersistanceCarte;
 import model.Persistance.IPersistanceResultat;
 
+/**
+ * Manager est la classe qui gere tout le jeu.
+ */
 public class Manager {
-    private Partie p;
-    private Resultat r;
+    /**
+     * La partie du jeu.
+     */
+    private Partie partie;
+    /**
+     * Les resultats deja enregistres.
+     */
+    private Resultat resultat;
+    /**
+     * La persistance resultat pour charger les resultats et les enregistrer.
+     */
     private IPersistanceResultat persR;
+    /**
+     * La persistance Carte pour charger la carte.
+     */
     private IPersistanceCarte persC;
 
+    /**
+     * Constructeur du Manager.
+     * @param iR
+     *          La persistance du resultat.
+     * @param iC
+     *          La persistance de la carte.
+     */
     public Manager(IPersistanceResultat iR, IPersistanceCarte iC){
         persR = iR;
         persC = iC;
-        r = persR.chargerResultat();
-        Carte c = persC.chargerCarte();
-        p = new Partie(null, c, null, null);
+        partie = new Partie(null, null);
     }
 
-    public Carte chargerCarte(){
-        return persC.chargerCarte();
+    /**
+     * Methode qui permet de charger la carte.
+     */
+    public void chargerCarte(String img){
+        Carte c = persC.chargerCarte(partie.getDifficulte(), img);
+        partie.setCarte(c);
+        partie.setPerso(c.getPerso());
+        partie.setPlatforms(c.getListeBloc());
     }
 
-    public Resultat chargerResultat(){
+    /**
+     * Methode qui permet de charger les resultats.
+     */
+    public ListePartie chargerResultats(){
         return persR.chargerResultat();
     }
 
-    public void sauvegarderResultat(Resultat resultat) {
-        persR.sauvegarderResultat(resultat);
+    /**
+     * Methode qui permet de recuperer la carte.
+     * @return partie
+     */
+    public Partie getPartie(){return partie;}
+
+    /**
+     * Methode qui permet de sauvegarder les resultats.
+     * @param lp
+     *              La liste des resultats.
+     */
+    public void sauvegarderResultat(ListePartie lp) {
+        persR.sauvegarderResultat(lp);
     }
 
-    public void changerCouleurPlateforme(String couleur){
-        p.getCarte().changerCouleurPlateforme(couleur);
-    }
-
-    public void bouger(){
-        p.bouger();
-    }
-
-    public void ajouterPartie(Partie p){
-        r.ajouterPartie(p);
+    /**
+     * Ajoute une nouvelle partie aux resultats.
+     * @param partie
+     *          La nouvelle partie a ajouter.
+     */
+    public void ajouterPartie(Partie partie){
+        resultat.ajouterPartie(partie);
     }
 }

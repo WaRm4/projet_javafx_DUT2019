@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="test" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1">
+
+    <ImageView fx:id="img3" fitHeight="${test.height}" fitWidth="${test.width}" AnchorPane.bottomAnchor="0.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <image>
+            <Image url="/images/screen.jpg"/>
+        </image>
+    </ImageView>
+
+    <GridPane fx:id="gp" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+              AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints percentWidth="100.0" prefWidth="${test.width}"/>
+            <ColumnConstraints percentWidth="100.0" prefWidth="${test.width}"/>
+        </columnConstraints>
+
+        <AnchorPane fx:id="ap" prefHeight="${gp.height}" prefWidth="${gp.width}" GridPane.columnIndex="0">
+            <ImageView fx:id="img" fitHeight="${ap.height}" fitWidth="${ap.width}" scaleX="-1"
+                       AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                       AnchorPane.topAnchor="0.0">
+                <image>
+                    <Image url="/images/ouverture.jpg"/>
+                </image>
+            </ImageView>
+        </AnchorPane>
+
+        <AnchorPane fx:id="ap2" prefHeight="${gp.height}" prefWidth="${gp.width}" GridPane.columnIndex="1">
+            <ImageView fx:id="img1" fitHeight="${ap2.height}" fitWidth="${ap2.width}" AnchorPane.bottomAnchor="0.0"
+                       AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <image>
+                    <Image url="/images/ouverture.jpg"/>
+                </image>
+            </ImageView>
+        </AnchorPane>
+        <rowConstraints>
+            <RowConstraints/>
+        </rowConstraints>
+    </GridPane>
+    <Label fx:id="labelClick" alignment="CENTER" prefWidth="${test.width}" text="Clickez pour lancer :)"
+           AnchorPane.topAnchor="0">
+        <font>
+            <Font name="High Tower Text" size="20.0"/>
+        </font>
+    </Label>
+</AnchorPane>

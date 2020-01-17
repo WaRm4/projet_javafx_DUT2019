@@ -8,8 +8,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ToggleButton;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import model.Manager;
 
 import java.io.IOException;
 
@@ -26,8 +27,14 @@ public class Menu {
     @FXML
     CheckBox checkDefaut;
     @FXML
-    BorderPane menuOptions;
+    GridPane menuOptions;
 
+    private Manager manager;
+
+    public Menu(Manager m)
+    {
+        this.manager = m;
+    }
 
     public void toggleOptions(ActionEvent actionEvent) {
         if (choisirLangue.getText() != "English")
@@ -38,11 +45,13 @@ public class Menu {
 
     public void validerClique(ActionEvent actionEvent) {
         try {
-            MainWindow m = new MainWindow();
-            FXMLLoader root = new FXMLLoader(getClass().getResource("/fxml/MainWindow.fxml"));
-            Scene scene = new Scene(root.load());
-            scene.getStylesheets().addAll(menuOptions.getScene().getStylesheets());
+            MenuPrincipal m = new MenuPrincipal(manager);
+            FXMLLoader root = new FXMLLoader(getClass().getResource("/fxml/MenuPrincipal.fxml"));
+            root.setController(m);
             Stage st = (Stage) menuOptions.getScene().getWindow();
+            Scene oldScene = st.getScene();
+            Scene scene = new Scene(root.load(), oldScene.getWidth(), oldScene.getHeight());
+            scene.getStylesheets().addAll(menuOptions.getScene().getStylesheets());
             st.setScene(scene);
         } catch (IOException ioe) {
             AlertCustom a = new AlertCustom(Alert.AlertType.INFORMATION);
@@ -52,16 +61,19 @@ public class Menu {
     }
 
     public void difficileSelected(ActionEvent actionEvent) {
+        manager.getPartie().setDifficulte("difficile");
         moyen.setSelected(false);
         facile.setSelected(false);
     }
 
     public void moyenSelected(ActionEvent actionEvent) {
+        manager.getPartie().setDifficulte("moyen");
         facile.setSelected(false);
         difficile.setSelected(false);
     }
 
     public void facileSelected(ActionEvent actionEvent) {
+        manager.getPartie().setDifficulte("facile");
         moyen.setSelected(false);
         difficile.setSelected(false);
     }

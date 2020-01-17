@@ -4,7 +4,15 @@ import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+/**
+ * AlertCustom est une classe qui redefini une Alert.
+ */
 public class AlertCustom extends Alert {
+    /**
+     * Constructeur de notre AlertCustom.
+     * @param alertType
+     *              Le type de l'Alert.
+     */
     public AlertCustom(AlertType alertType) {
         super(alertType);
         this.setTitle("Erreur chargement fenetre");

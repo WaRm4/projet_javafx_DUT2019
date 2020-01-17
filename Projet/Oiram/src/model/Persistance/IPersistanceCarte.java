@@ -2,7 +2,14 @@ package model.Persistance;
 
 import model.Carte;
 
+/**
+ * IpersistanceCarte est la classe qui gere la persistance des cartes.
+ */
 public interface IPersistanceCarte {
 
-    public Carte chargerCarte();
+    /**
+     * Methode permettant de charger une carte.
+     * @return la carte chargee.
+     */
+    public Carte chargerCarte(String nom, String imgPerso);
 }

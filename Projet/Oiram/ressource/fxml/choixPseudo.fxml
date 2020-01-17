@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="BdP" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" >
+
+    <top>
+        <AnchorPane>
+            <VBox alignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                <HBox alignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                    <Label text="Bravo ">
+                        <font>
+                            <Font name="Verdana Bold" size="32.0" />
+                        </font>
+                    </Label>
+                    <Label text="${ttfield.text}">
+                        <font>
+                            <Font name="Verdana Bold" size="32.0" />
+                        </font>
+                    </Label>
+                    <Label text=" !">
+                        <font>
+                            <Font name="Verdana Bold" size="32.0" />
+                        </font>
+                    </Label>
+                </HBox>
+                <Label text="Vous avez gagné !">
+                    <font>
+                        <Font name="Verdana Bold" size="32.0" />
+                    </font>
+                </Label>
+            </VBox>
+        </AnchorPane>
+    </top>
+
+    <center>
+        <AnchorPane>
+            <VBox alignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+                <Label text="Entrez votre pseudo :">
+                    <font>
+                        <Font name="Verdana Bold" size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="ttfield" maxWidth="150">
+                    <font>
+                        <Font name="Verdana Bold" size="18.0" />
+                    </font>
+                </TextField>
+            </VBox>
+        </AnchorPane>
+    </center>
+
+    <bottom>
+        <Button text="Valider" BorderPane.alignment="CENTER" onAction="#valider">
+            <font>
+                <Font name="Verdana Bold" size="24.0" />
+            </font>
+        </Button>
+    </bottom>
+
+</BorderPane>

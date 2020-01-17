@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.GridPane?>
-<GridPane xmlns="http://javafx.com/javafx"
-          xmlns:fx="http://javafx.com/fxml"
-          fx:controller="view.Fin"
-          prefHeight="400.0" prefWidth="600.0">
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml" fx:id="bordP"
+            prefHeight="400.0" prefWidth="600.0">
+    <center>
+        <ListView BorderPane.alignment="CENTER" fx:id="laListe"/>
+    </center>
 
-</GridPane>
+    <right>
+        <AnchorPane minWidth="175">
+            <VBox AnchorPane.bottomAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER" AnchorPane.rightAnchor="0"
+                  AnchorPane.leftAnchor="0">
+                <Label text="Pseudo :">
+                    <font>
+                        <Font name="Verdana Bold" size="20.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="tpseudo">
+                    <font>
+                        <Font name="Verdana" size="18.0"/>
+                    </font>
+                </Label>
+                <Label text="Difficulté :">
+                    <font>
+                        <Font name="Verdana Bold" size="20.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="tdifficults">
+                    <font>
+                        <Font name="Verdana" size="18.0"/>
+                    </font>
+                </Label>
+            </VBox>
+        </AnchorPane>
+    </right>
+
+    <top>
+        <Label text="Classement : " BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Verdana Bold" size="32.0"/>
+            </font>
+        </Label>
+    </top>
+
+    <bottom>
+        <AnchorPane>
+            <HBox AnchorPane.rightAnchor="0">
+                <Button text="Rejouer" onAction="#rejouer">
+                    <font>
+                        <Font name="Verdana Bold" size="18.0"/>
+                    </font>
+                </Button>
+                <Button text="Quitter" onAction="#quitter">
+                    <font>
+                        <Font name="Verdana Bold" size="18.0"/>
+                    </font>
+                </Button>
+            </HBox>
+        </AnchorPane>
+    </bottom>
+</BorderPane>

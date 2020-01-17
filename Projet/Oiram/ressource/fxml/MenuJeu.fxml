@@ -5,28 +5,29 @@
 <?import javafx.scene.text.Font?>
 <HBox fx:id="menuJouer" xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      prefHeight="400.0" prefWidth="600.0">
+      prefHeight="400.0" prefWidth="600.0" >
 
     <AnchorPane prefWidth="${menuJouer.width}">
-        <Button id="solo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+        <Button id="solo" text="Solo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
                 AnchorPane.topAnchor="0.0" onAction="#ouvrirSolo">
             <font>
                 <Font name="Verdana Bold" size="24.0"/>
             </font>
         </Button>
+        <Button text="retour" onAction="#retour" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="0"/>
     </AnchorPane>
     <AnchorPane prefWidth="${menuJouer.width}">
-        <Button text="Duo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                AnchorPane.topAnchor="0.0" onAction="#ouvrirDuo">
+        <Button text="Duo (coming soon)" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                AnchorPane.topAnchor="0.0">
             <font>
                 <Font name="Verdana Bold" size="24.0"/>
             </font>
         </Button>
     </AnchorPane>
     <AnchorPane prefWidth="${menuJouer.width}">
-        <Button fx:id="vs1" text="1v1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+        <Button fx:id="vs1" text="1v1 (coming soon)" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
                 AnchorPane.rightAnchor="0.0"
-                AnchorPane.topAnchor="0.0" onAction="#ouvrir1v1">
+                AnchorPane.topAnchor="0.0" >
             <font>
                 <Font name="Verdana Bold" size="24.0"/>
             </font>
