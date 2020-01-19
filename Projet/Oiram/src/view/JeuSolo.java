@@ -119,7 +119,7 @@ public class JeuSolo {
                         y=m.getPartie().getPersonnage().getCoordonneeY()-100;
                     }
                 }
-                if( m.getPartie().getPersonnage().getEnAir()==true){
+                if(m.getPartie().getPersonnage().getEnAir()){
                     sauter();
                 }
                 else {

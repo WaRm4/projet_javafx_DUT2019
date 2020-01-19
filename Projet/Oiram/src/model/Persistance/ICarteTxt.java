@@ -74,7 +74,6 @@ public class ICarteTxt implements IPersistanceCarte {
             }
         }
 
-        Carte c = new Carte(nom, platforms, player, coordArrivee);
-        return c;
+        return new Carte(nom, platforms, player, coordArrivee);
     }
 }

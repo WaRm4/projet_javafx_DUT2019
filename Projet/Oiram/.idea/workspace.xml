@@ -11,8 +11,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4774f111-41eb-4409-8a0f-f2ad9581fecb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Documentation/Doc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/Documentation.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/AlertCustom.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/AlertCustom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/custom/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/Oiram.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/Oiram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Bloc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Bloc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Carte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/ListePartie.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/ListePartie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Partie.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Partie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/ICarteTxt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/ICarteTxt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IPersistanceCarte.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IPersistanceCarte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IPersistanceResultat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IPersistanceResultat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IResultatTxt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/IResultatTxt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Persistance/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Personnage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Personnage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Plateforme.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Plateforme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Resultat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Resultat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Score.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Score.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Stub.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Stub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/AnimationDebut.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/AnimationDebut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/ChoixPerso.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/ChoixPerso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/ChoixPseudo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/ChoixPseudo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/Fin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/Fin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/JeuSolo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/JeuSolo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuJeu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuJeu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuPrincipal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Documentation/Preuves.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IResultatTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IResultatTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ListePartie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ListePartie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Persistance/ICarteTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/ICarteTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IPersistanceCarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IPersistanceCarte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IPersistanceResultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IPersistanceResultat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Personnage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/JeuSolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/JeuSolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,10 +228,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578955212805" />
-    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1578955884155">
+    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579405013301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1578955884155" />
+    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579405013301" />
     <state width="425" height="466" key="DebuggerActiveHint" timestamp="1578263909757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -166,22 +240,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="142" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578944404578" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1578955904880">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1579405039242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578955904880" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1578955904880">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1579405039242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578955904880" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1578955904880">
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1579405039242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578955904880" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1578955904880">
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1579405039242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578955904880" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
     <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1578939322405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

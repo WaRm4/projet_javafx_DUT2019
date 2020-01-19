@@ -11,5 +11,5 @@ public interface IPersistanceCarte {
      * Methode permettant de charger une carte.
      * @return la carte chargee.
      */
-    public Carte chargerCarte(String nom, String imgPerso);
+    Carte chargerCarte(String nom, String imgPerso);
 }

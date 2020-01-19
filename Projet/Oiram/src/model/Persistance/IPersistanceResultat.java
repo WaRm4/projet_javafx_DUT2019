@@ -12,11 +12,11 @@ public interface IPersistanceResultat {
      * @param lp
      *          Liste des resultats a sauvegarder.
      */
-    public void sauvegarderResultat(ListePartie lp);
+    void sauvegarderResultat(ListePartie lp);
 
     /**
      * Charge les resultats.
      * @return une liste de Resultat.
      */
-    public ListePartie chargerResultat();
+    ListePartie chargerResultat();
 }

@@ -106,7 +106,7 @@ public class Personnage extends Bloc {
     public double collisionX(Node plateforme, double x)
     {
         if(rectangle.getBoundsInParent().intersects(plateforme.getBoundsInParent())){
-            if (rectangle.getBoundsInParent().getMaxX() == plateforme.getBoundsInParent().getMinX() && x <= 0) {
+            if (rectangle.getBoundsInParent().getMaxX() == plateforme.getBoundsInParent().getMinX()+1 && x <= 0) {
                 return x;
             }
             if (rectangle.getBoundsInParent().getMinX() == plateforme.getBoundsInParent().getMaxX() && x >= 0) {
@@ -134,24 +134,6 @@ public class Personnage extends Bloc {
             }
         }
         return y;
-    }
-
-    /**
-     * Methode permettant de faire avancer le personnage sur l'axe X.
-     * @param acceleration double : valeur de l'avancement.
-     */
-    public void avancerX(double acceleration)
-    {
-        setCoordonneeX(acceleration);
-    }
-
-    /**
-     * Methode permettant de faire avancer le personnage sur l'axe Y.
-     * @param acceleration double : valeur de l'avancement.
-     */
-    public void avancerY(double acceleration)
-    {
-        setCoordonneeY(acceleration);
     }
 
     /**

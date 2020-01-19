@@ -5,8 +5,6 @@ import javafx.beans.property.SimpleListProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-import java.io.Serializable;
-
 /**
  * ListePartie est la classe qui permet l'affichage binde pour la vue de fin.
  */
