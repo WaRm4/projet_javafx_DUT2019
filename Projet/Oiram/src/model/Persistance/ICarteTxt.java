@@ -25,11 +25,12 @@ public class ICarteTxt implements IPersistanceCarte {
     @Override
     public Carte chargerCarte(String nom, String imgPerso) {
 
-        int tab[][] = new int[11][19];
+        int[][] tab = new int[11][19];
         int i = 0, j = 0;
         String[] tab2;
         try {
-            InputStream flux = new FileInputStream("ressource/Cartes/" + nom);
+            InputStream flux = getClass().getClassLoader().getResourceAsStream("Cartes/"+nom);
+            assert flux != null;
             InputStreamReader lecture = new InputStreamReader(flux);
             BufferedReader buff = new BufferedReader(lecture);
             String ligne;
@@ -49,7 +50,7 @@ public class ICarteTxt implements IPersistanceCarte {
         }
 
         int proportion = 50;
-        ArrayList<Node> platforms = new ArrayList();
+        ArrayList<Node> platforms = new ArrayList<>();
         Personnage player = null;
         int[] coordArrivee = new int[2];
         for (i = 0; i < 19; i++) {

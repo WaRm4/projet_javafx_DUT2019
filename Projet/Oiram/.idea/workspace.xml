@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4774f111-41eb-4409-8a0f-f2ad9581fecb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Documentation/Doc.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Documentation/Documentation.odt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allclasses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/allpackages-index.html" afterDir="false" />
@@ -44,7 +42,6 @@
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/Oiram.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/Oiram.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/launch/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/member-search-index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Bloc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Bloc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Carte.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/model/Carte.html" afterDir="false" />
@@ -78,14 +75,14 @@
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuPrincipal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/MenuPrincipal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Documentation/OiramDoc/view/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Documentation/Preuves.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oiram.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Oiram_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ListePartie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ListePartie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressource/Resultats/resultats" beforeDir="false" afterPath="$PROJECT_DIR$/ressource/Resultats/resultats" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ressource/Sons/Enregistrement.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Persistance/ICarteTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/ICarteTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IPersistanceCarte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IPersistanceCarte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IPersistanceResultat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IPersistanceResultat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Personnage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Personnage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/JeuSolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/JeuSolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Persistance/IResultatTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Persistance/IResultatTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MenuJeu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuJeu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +104,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1TyJcHwczoM0MpknAwCbWujLHKj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -140,7 +139,7 @@
       <recent name="$PROJECT_DIR$/ressource/CSS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Oiram">
+  <component name="RunManager">
     <configuration name="Oiram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="launch.Oiram" />
       <module name="Oiram" />
@@ -149,20 +148,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oiram.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Oiram_jar/Oiram.jar" />
-      <option name="VM_PARAMETERS" value=" --module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Oiram" />
-      <item itemvalue="JAR Application.Oiram.jar" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Oiram" />
-        <item itemvalue="JAR Application.Oiram.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -208,74 +196,78 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1578878727560">
+    <state x="361" y="70" key="#Inspections" timestamp="1579462769738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578878727560" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578885226453">
+    <state x="361" y="70" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1579462769738" />
+    <state x="361" y="70" key="#Project_Structure" timestamp="1579450928256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578885226453" />
-    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578953379007">
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579450928256" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579455193466">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578953379007" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578880149933">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579455193466" />
+    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579453049739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1578880149933" />
+    <state x="530" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579453049739" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579467396724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1579467396724" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578955212805">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578955212805" />
-    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579405013301">
+    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579467378651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579405013301" />
+    <state x="516" y="144" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1579467378651" />
     <state width="425" height="466" key="DebuggerActiveHint" timestamp="1578263909757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="425" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1578263909757" />
-    <state x="538" y="142" key="FileChooserDialogImpl" timestamp="1578944404578">
+    <state x="538" y="142" key="FileChooserDialogImpl" timestamp="1579455184776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="538" y="142" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578944404578" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1579405039242">
+    <state x="538" y="142" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579455184776" />
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1579467415502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1579405039242">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579467415502" />
+    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1579467415502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1579405039242">
+    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579467415502" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1579467415502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1579405039242">
+    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579467415502" />
+    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1579467415502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579405039242" />
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1578939322405">
+    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579467415502" />
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1579455578808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578939322405" />
-    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1578939322405">
+    <state width="1493" height="171" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579455578808" />
+    <state width="1493" height="171" key="GridCell.Tab.1.center" timestamp="1579455578808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578939322405" />
-    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1578939322405">
+    <state width="1493" height="171" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579455578808" />
+    <state width="1493" height="171" key="GridCell.Tab.1.left" timestamp="1579455578808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578939322405" />
-    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1578939322405">
+    <state width="1493" height="171" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579455578808" />
+    <state width="1493" height="171" key="GridCell.Tab.1.right" timestamp="1579455578808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578939322405" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1578959812842">
+    <state width="1493" height="171" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579455578808" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1579467399014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578959812842" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579467399014" />
     <state x="573" y="281" key="classpath-attribute-editor" timestamp="1578880011181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
